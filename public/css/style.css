@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+scroll-behavior: smooth;
+height: 100vh;
+width: 100%;
+}
+
+
+/* Estilização do Menu */
+
+nav {
+background-color: #fff;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: fixed;
+width: 100%;
+z-index: 10;
+}
+
+nav img {
+width: 2rem;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+}
+
+nav ul li {
+padding: 1rem;
+}
+
+nav ul li a {
+text-decoration: none;
+color: red;
+font-weight: bold;
+font-size: 1.2rem;
+transition: 0.5s;
+}
+
+nav ul li a:hover {
+color: #EF4036;
+}
+
+#pokedex {
+text-decoration: none;
+display: flex;
+align-items: center;
+color: #EF4036;
+font-weight: bold;
+font-size: 2rem;
+padding-left: 1rem;;
+}
+
+
+/* Estilização da Página Home */
+
+h1 {
+color: black;
+font-size: 3rem;
+/* text-shadow: 0 0 1rem #00000060; */
+text-align: center;
+font-weight: bold;
+}
+
+header, main {
+background-color: #00ff95;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 6rem 3rem 3rem 3rem;
+}
+
+.container {
+max-width: 60rem;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.card {
+width: 20rem;
+padding: 3rem;
+margin: 2rem;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+cursor: pointer;
+background-color: #fff;
+}
+
+.card img {
+width: 15rem;
+height: 15rem;
+}
+
+.card h2 {
+width: 100%;
+text-align: center;
+padding-top: 2rem;
+}
+
+.card h4 {
+padding-top: 2rem;
+}
+
+
+/* Estilização da Página Cadastrar */
+
+section#inscrever {
+  width: 100%;
+  padding: 6rem 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #fff;
+  margin: 2rem 15rem 10rem 15rem;
+}
+
+section#inscrever div input {
+width: 100%;
+padding: 1rem;
+font-size: 1.3rem;
+margin-top: 0.5rem;
+margin-bottom: 1rem;
+outline: none;
+border: 0.1rem solid #ccc;
+}
+
+section#inscrever form div label {
+font-size: 1.3rem;
+}
+
+section#inscrever form button {
+background-color: red;
+color: white;
+padding: 1rem;
+font-size: 0.8vw;
+font-weight: 600;
+border-radius: 0.5rem;
+display: block;
+margin: auto;
+margin-top: 2rem;
+cursor: pointer;
+transition: 0.3s ease-out;
+width: 40%;
+}
+
+section#inscrever form button:hover {
+background-color: black;
+color: #fff;
+transform: scale(1.05);
+}
+
+
+/* Estilização da Página Detalhes */
+
+.container-detalhes {
+width: 100%;
+padding: 6rem 2rem;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+background-color: #fff;
+margin: 0 15rem 10rem 15rem;
+}
+
+.imagem-pokemon {
+max-width: 20rem;
+}
+
+.conteudo-pokemon {
+display: flex;
+justify-content: center;
+gap: 2rem;
+padding-top: 3rem;
+}
+
+.descricao-pokemon {
+width: 30%;
+}
+
+.descricao-pokemon p {
+font-size: 1.5rem;
+}
+
+.detalhes-pokemon p {
+font-size: 1.25rem;
+margin: 0.25rem 0.5rem;
+}
+
+.tipo-pokemon .titulo {
+font-size: 1.5rem;
+}
+
+.tipo-pokemon .destaque {
+font-size: 3rem;
+}

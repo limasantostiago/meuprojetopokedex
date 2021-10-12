@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Pokédex</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <p id="pokedex">Pokédex</p> 
+        </div>
+        <ul>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/cadastro">Cadastro</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <header>
+        <h1><%= pokemon.nome %> > <%= pokemon.numero %></h1>
+    </header>
+
+    <main>
+        <section class="container-detalhes">
+            <section>
+                <img src="<%= pokemon.imagem %>" class="imagem-pokemon" alt="Imagens Pokémons">
+            </section>
+            <section class="conteudo-pokemon">
+                <div class="descricao-pokemon">
+                    <p><%= pokemon.descricao %></p>
+                </div>
+                <div class="detalhes-pokemon">
+                    <p>Altura: <%= pokemon.altura %></p>
+                    <p>Categoria: <%= pokemon.categoria %></p>
+                    <p>Peso: <%= pokemon.peso %></p>
+                    <p>Habilidade: <%= pokemon.habilidade %></p>
+                </div>
+                <div class="tipo-pokemon">
+                    <p class="titulo">Tipo:</p>
+                    <p class="destaque"><%= pokemon.tipo %></p>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
