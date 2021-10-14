@@ -16,26 +16,26 @@ const pokedex = [
     habilidade: "Torrent"
   },
   {
-    numero: "",
-    nome: "",
-    tipo: "",
-    imagem: "",
-    descricao: "",
-    altura: "m",
-    peso: "",
-    categoria: "",
-    habilidade: ""
+    numero: "008",
+    nome: "Wartortle",
+    tipo: "Water",
+    imagem: "/img/wartortle.png",
+    descricao: "É reconhecido como um símbolo de longevidade. Se sua casca contém algas, esse Wartortle é muito antigo.",
+    altura: "1.0 m",
+    peso: "22.5 kg",
+    categoria: "Turtle",
+    habilidade: "Torrent"
   },
   {
-    numero: "",
-    nome: "",
-    tipo: "",
-    imagem: "",
-    descricao: "",
-    altura: "m",
-    peso: "",
-    categoria: "",
-    habilidade: ""
+    numero: "005",
+    nome: "charmeleon",
+    tipo: "fire",
+    imagem: "/img/charmeleon.png",
+    descricao: "Tem uma natureza bárbara. Na batalha, ele chicoteia sua cauda de fogo e o corta com garras afiadas.",
+    altura: "1.1m",
+    peso: "19.0",
+    categoria: "flame",
+    habilidade: "blaze"
   }
 ];
 app.set("view engine", "ejs");
